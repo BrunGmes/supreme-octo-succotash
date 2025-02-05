@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Agência Digital especializada em soluções web e marketing digital">
+    <title>RVMBLE | Agência Marketing</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    
+    <!-- TailwindCSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- FontAwesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Arquivo CSS personalizado -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="bg-black text-white">
+
+    <!-- Header -->
+    <header class="flex items-center justify-between px-6 py-4 bg-black">
+        <!-- Botões da esquerda (alinhados ao centro) -->
+        <div class="flex-1 flex justify-center">
+            <div class="flex space-x-4">
+                <a href="#studio" class="px-4 py-2 bg-white text-black rounded-full text-sm azeret-mono hover:bg-orange-500">STUDIO</a>
+                <a href="#portfolio" class="px-4 py-2 bg-white text-black rounded-full text-sm azeret-mono hover:bg-orange-500">PORTFOLIO</a>
+            </div>
+        </div>
+
+        <!-- Logo central -->
+        <a href="#top" class="text-3xl flex items-center space-x-2">
+            <img src="img/Logo_TheRvmble_WHITE.avif" alt="Rvmble Logo" class="h-16"> <!-- Ajuste a altura (h-12) conforme necessário -->
+        </a>
+
+        <!-- Ícones e botão de contato (alinhados ao centro) -->
+        <div class="flex-1 flex justify-center">
+            <div class="flex items-center space-x-4">
+                <a href="#" class="text-white text-xl hover:text-orange-500"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white text-xl hover:text-orange-500"><i class="fab fa-youtube"></i></a>
+                <a href="#contactos" class="px-4 py-2 bg-white text-black rounded-full text-sm azeret-mono hover:bg-orange-500">CONTACT</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Video Section -->
+    <section class="text-center py-20">
+        <!-- Container para os vídeos -->
+        <div class="mt-10 grid grid-cols-3 gap-8 mx-auto px-4">
+            <!-- Vídeo 1 -->
+            <div class="w-full">
+                <video class="w-full h-auto rounded-lg" autoplay muted loop playsinline>
+                    <source src="videos/1.mp4" type="video/mp4">
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
+            </div>
+
+            <!-- Vídeo 2 -->
+            <div class="w-full">
+                <video class="w-full h-auto rounded-lg" autoplay muted loop playsinline>
+                    <source src="videos/2.mp4" type="video/mp4">
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
+            </div>
+
+            <!-- Vídeo 3 -->
+            <div class="w-full">
+                <video class="w-full h-auto rounded-lg" autoplay muted loop playsinline>
+                    <source src="videos/3.mp4" type="video/mp4">
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
+            </div>
+        </div>
+    </section>
+    <!-- Hero text -->
+    <section class="text-center py-40">
+       <div class="text-center px-6">
+            <strike><p class="text-sm font-bold tracking-widest uppercase">
+                CRESCE E APARECE
+            </p></strike>
+            <p class="text-md font-bold uppercase">
+                APARECE E CRESCE!
+            </p>
+
+            <h2 class="mt-4 text-3xl md:text-4xl font-extrabold uppercase leading-snug max-w-3xl mx-auto">
+                TER UM BOM MARKETING, É O QUE VAI FAZER A DIFERENÇA ENTRE 
+                NINGUÉM CONHECER O SEU NEGÓCIO, 
+                OU ENTÃO FAZER DA SUA MARCA UMA REFERÊNCIA DE MERCADO!
+            </h2>
+
+            <a href="#services" class="mt-6 inline-block px-6 py-3 bg-white text-black font-bold rounded-full text-lg hover:bg-orange-500">
+                QUERO CRESCER!!!
+            </a>
+        </div>
+    </section>
+
+    <!-- Seção de Sobre -->
+    <section id="about" class="relative w-full h-screen flex items-center justify-center text-center">
+        <!-- Imagem de fundo -->
+        <div class="absolute inset-0">
+            <div class="absolute inset-0 bg-black opacity-20">
+                <img src="img/about.avif" alt="Estúdio Criativo" class="w-full h-full object-cover">
+            </div>
+        </div>
+
+        <!-- Conteúdo -->
+        <div class="relative z-10 max-w-3xl px-6">
+            <p class="text-sm uppercase font-semibold tracking-widest">Sobre</p>
+            <h1 class="text-3xl md:text-4xl font-extrabold uppercase leading-tight mt-2">
+                Criatividade - Estratégia - Visão - <br> Alta Qualidade - Profissionalismo
+            </h1>
+            <p class="mt-4 text-lg text-gray-200 azeret-mono">
+                Somos uma jovem equipa com uma grande ambição! Ser os melhores do mercado e ajudar 
+                todos os nossos clientes a também o serem no seu negócio!
+            </p>
+
+            <a href="#" class="mt-6 inline-block px-6 py-3 bg-white text-black font-bold rounded-full text-lg hover:bg-orange-500">
+                LER MAIS
+            </a>
+        </div>
+    </section>
+
+    <!-- Seção de Serviços -->
+    <section id="services" class="bg-black text-white py-40">
+        <!-- Título Principal -->
+        <div class="text-center">
+            <h2 class="text-white text-lg">Os Nossos Serviços</h2>
+            <h1 class="text-4xl font-bold mt-2">ESPECIALISTAS EM VÍDEO DINÂMICO!</h1>
+        </div>
+
+        <!-- Seção de Serviços -->
+        <div class="grid md:grid-cols-3 gap-10 px-10 text-center mt-10">
+            <!-- Gestão de Redes Sociais -->
+            <div>
+                <img src="img/1.avif" alt="Gestão de Redes Sociais" class="w-16 h-16 mx-auto">
+                <h3 class="font-bold mt-2">GESTÃO DE REDES SOCIAIS</h3>
+                <p class="text-gray-300 text-lg mt-2 azeret-mono">
+                    Criação e gestão de conteúdo! Para a sua empresa, marca ou negócio! Marca pessoal, etc...
+                </p>
+            </div>
+
+            <!-- Vídeo -->
+            <div>
+                <img src="img/2.avif" alt="Vídeo" class="w-16 h-16 mx-auto">
+                <h3 class="font-bold mt-2">VÍDEO</h3>
+                <p class="text-gray-300 text-lg mt-2 azeret-mono">
+                    Seja qual for o conceito, somos especialistas em vídeos dinâmicos de alto impacto!
+                </p>
+            </div>
+
+            <!-- Fotografia -->
+            <div>
+                <img src="img/3.avif" alt="Fotografia" class="w-16 h-16 mx-auto">
+                <h3 class="font-bold mt-2">FOTOGRAFIA</h3>
+                <p class="text-gray-300 text-lg mt-2 azeret-mono">
+                    Fotografia em estúdio, outdoor, na sua empresa ou em família, estamos à sua espera!
+                </p>
+            </div>
+
+            <!-- Anúncios Online -->
+            <div>
+                <img src="img/4.avif" alt="Anúncios Online" class="w-16 h-16 mx-auto">
+                <h3 class="font-bold mt-2">ANÚNCIOS ONLINE</h3>
+                <p class="text-gray-300 text-lg mt-2 azeret-mono">
+                    Criação de estratégias e anúncios online para a sua empresa/marca chegar ainda mais longe!
+                </p>
+            </div>
+
+            <!-- Site -->
+            <div>
+                <img src="img/5.avif" alt="Site" class="w-16 h-16 mx-auto">
+                <h3 class="font-bold mt-2">SITE</h3>
+                <p class="text-gray-300 text-lg mt-2 azeret-mono">
+                    Como ponto de estrutura base da nossa teia online, fazemos desde a criação à manutenção do site da sua empresa!
+                </p>
+            </div>
+
+            <!-- Branding -->
+            <div>
+                <img src="img/6.avif" alt="Branding" class="w-16 h-16 mx-auto">
+                <h3 class="font-bold mt-2">BRANDING</h3>
+                <p class="text-gray-300 text-lg mt-2 azeret-mono">
+                    A forma como o vêm diz muito sobre seus resultados! Podemos ajudar em toda a criação da sua nova imagem!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="bg-black text-white py-10">
+    <!-- Título Principal -->
+        <div class="text-center mb-8">
+            <h2 class="text-blue-400 text-lg">O Nosso Portfólio</h2>
+            <h1 class="text-4xl font-bold mt-2">TRABALHOS RECENTES</h1>
+        </div>
+
+        <!-- Grid de Vídeos -->
+        <div class="grid grid-cols-2 gap-y-6">
+            <!-- Linha 1 -->
+            <video class="w-full h-auto object-cover" controls>
+                <source src="video1.mp4" type="video/mp4">
+                Seu navegador não suporta vídeos.
+            </video>
+            <video class="w-full h-auto object-cover" controls>
+                <source src="video2.mp4" type="video/mp4">
+                Seu navegador não suporta vídeos.
+            </video>
+
+            <!-- Linha 2 -->
+            <video class="w-full h-auto object-cover" controls>
+                <source src="video3.mp4" type="video/mp4">
+                Seu navegador não suporta vídeos.
+            </video>
+            <video class="w-full h-auto object-cover" controls>
+                <source src="video4.mp4" type="video/mp4">
+                Seu navegador não suporta vídeos.
+            </video>
+        </div>
+    </section>
+
+    <!-- Clients -->
+    <section id="clients" class="bg-white text-black py-40">
+    <!-- Título Principal -->
+        <div class="text-center mb-8">
+            <h2 class="text-black text-lg">ALGUNS CLIENTES COM QUE</h2>
+            <h1 class="text-4xl font-bold mt-2">TRABALHAMOS COM MUITO GOSTO</h1>
+        </div>
+
+        <!-- Grid de Imagens -->
+        <div class="grid grid-cols-6 gap-y-6">
+            <img src="img/clients/1.avif" alt="KIRO" class="w-64 h-64 mx-auto">
+            <img src="img/clients/2.avif" alt="ADL" class="w-64 h-64 mx-auto">
+            <img src="img/clients/3.avif" alt="Richimi" class="w-64 h-64 mx-auto">
+            <img src="img/clients/4.avif" alt="JD" class="w-64 h-64 mx-auto">
+            <img src="img/clients/5.avif" alt="Ativo" class="w-64 h-64 mx-auto">
+            <img src="img/clients/6.avif" alt="Destravamento" class="w-64 h-64 mx-auto">
+        </div>
+    </section>
+
+    <!-- Feedback -->
+    <section id="feedback" class="bg-gray-100 text-black py-40">
+    <!-- Título Principal -->
+        <div class="text-center mb-8">
+            <h2 class="text-black text-lg">TESTEMUNHOS</h2>
+            <h1 class="text-4xl font-bold mt-2">ESPAÇO ONDE FALAM BEM DE NÓS</h1>
+        </div>
+
+        <!-- Grid de Imagens -->
+        <div>
+            <p class="text-center text-red-400">EM CONSTRUÇAO</p>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="py-10 bg-gray-900 text-center">
+        <p>&copy; 2024 Rvmble. Todos os direitos reservados.</p>
+        <div class="flex justify-center space-x-4 mt-4">
+            <a href="#" class="text-white text-xl hover:text-orange-500"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white text-xl hover:text-orange-500"><i class="fab fa-facebook"></i></a>
+        </div>
+    </footer>
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
