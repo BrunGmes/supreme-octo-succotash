@@ -16,6 +16,7 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
     <!-- Arquivo CSS personalizado -->
     <link rel="stylesheet" href="css/main.css">
@@ -259,11 +260,53 @@
         </div>
     </section>
 
+    <section id="contact" class="bg-black text-white py-10 px-5">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
+            
+            <!-- Coluna Esquerda - Informações de Contato -->
+            <div class="flex flex-col justify-center" style="font-family: 'Inter', sans-serif;">
+                <h2 class="text-3xl font-bold mb-4">Entre em Contato</h2>
+                <p class="mb-1">Tlm - 917 737 318</p>
+                <p class="mb-1">E-mail - <a href="mailto:THERVMBLE@gmail.com" class="text-white hover:text-orange-400">THERVMBLE@gmail.com</a></p>
+                <p>Tiago Reis Marques</p>
+                <br class="my-4">
+                <p class="mb-4">Sediados em <strong class="hover:text-orange-400">Portugal</strong>, disponíveis pelo <strong class="hover:text-orange-400">MUNDO!</strong></p>
+
+            </div>
+
+            <!-- Coluna Direita - Formulário -->
+            <div>
+                <h3 class="text-2xl font-bold mb-4">Envie uma Mensagem</h3>
+                <form action="https://formspree.io/f/{SEU_CÓDIGO}" method="POST" class="bg-gray-800 p-6 rounded">
+                    <div class="mb-4">
+                        <label class="block text-left">Nome:</label>
+                        <input type="text" name="nome" required disabled class="w-full p-2 rounded text-black">
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="block text-left">Email:</label>
+                        <input type="email" name="email" required disabled class="w-full p-2 rounded text-black">
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="block text-left">Mensagem:</label>
+                        <textarea name="mensagem" required disabled class="w-full p-2 rounded text-black"></textarea>
+                    </div>
+
+                    <button type="submit" disabled class="bg-orange-500 hover:bg-orange-600 px-6 py-2 rounded">
+                        Enviar
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </section>
 
     <!-- Footer -->
-    <footer class="py-10 bg-gray-900 text-center">
-        <p>&copy; 2024 Rvmble. Todos os direitos reservados.</p>
+    <footer class="py-10 bg-black text-center">
+        <p>&copy; 2024 <span class="hover:text-orange-400">Rvmble.</span> Todos os direitos reservados.</p>
         <div class="flex justify-center space-x-4 mt-4">
+            <p>Siga-nos:</p>
             <a href="https://www.instagram.com/the_rvmble/" target="_blank" rel="noopener noreferrer" class="text-white text-xl hover:text-orange-500">
                 <i class="fab fa-instagram"></i>
             </a>
