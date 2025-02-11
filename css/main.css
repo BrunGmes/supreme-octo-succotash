@@ -20,6 +20,15 @@ body {
     padding-top: 80px;
 }
 
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
 .azeret-mono {
     font-family: 'Azeret Mono', monospace;
 }
